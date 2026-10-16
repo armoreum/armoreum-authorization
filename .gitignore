@@ -1,0 +1,16 @@
+node_modules/
+dist/
+artifacts/
+cache/
+deployments/
+coverage/
+*.log
+*.tgz
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.keystore
+*.qrc
+.DS_Store

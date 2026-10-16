@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "files": [
+    {
+      "path": "src/authorization.ts",
+      "source_repository": "armoreum/armoreum",
+      "source_commit": "86d6af9b9d5ea54f5a6156560246ca0c841561a7",
+      "source_path": "src/lib/authorization.ts",
+      "sha256": "9a73ccf7199878ef15a3bec7b6d5e910f5313c0cdbca20e048a0c2e7e2e00304"
+    },
+    {
+      "path": "src/creator-authorization.ts",
+      "source_repository": "armoreum/armoreum",
+      "source_commit": "86d6af9b9d5ea54f5a6156560246ca0c841561a7",
+      "source_path": "src/lib/creator-authorization.ts",
+      "sha256": "f0c3309c197501596eb319544a63acb0ad492e919fdc916ea85cf3fd7e819492"
+    },
+    {
+      "path": "src/creator-password-authorization.ts",
+      "source_repository": "armoreum/armoreum",
+      "source_commit": "86d6af9b9d5ea54f5a6156560246ca0c841561a7",
+      "source_path": "src/lib/creator-password-authorization.ts",
+      "sha256": "dd4d0418721397e1721683e2adc3bc94a56b20a8fe6587ace3f14163550cd7d3"
+    },
+    {
+      "path": "src/eip712-wallet-signing.ts",
+      "source_repository": "armoreum/armoreum",
+      "source_commit": "86d6af9b9d5ea54f5a6156560246ca0c841561a7",
+      "source_path": "src/lib/eip712-wallet-signing.ts",
+      "sha256": "cc2c552f79ae9bd6ee577effa6eb85580aa2bf257b368b9dfc3c3a9171d5f683"
+    },
+    {
+      "path": "src/creator-authorization.test.mjs",
+      "source_repository": "armoreum/armoreum",
+      "source_commit": "86d6af9b9d5ea54f5a6156560246ca0c841561a7",
+      "source_path": "src/lib/creator-authorization.test.mjs",
+      "sha256": "d8d03bfe84d015c5c4c40ffe9a45a1849316085fbf13dfacba98900398db65c9",
+      "source_sha256": "1392c4df0557cd9acf02042f777045e4342be8217c6eb378ba73ca4ef06b068b",
+      "transformation": "Updated a stale test error-message expectation to match the existing implementation; no authorization algorithm changed."
+    },
+    {
+      "path": "src/creator-password-authorization.test.mjs",
+      "source_repository": "armoreum/armoreum",
+      "source_commit": "86d6af9b9d5ea54f5a6156560246ca0c841561a7",
+      "source_path": "src/lib/creator-password-authorization.test.mjs",
+      "sha256": "d6cc430c8072704581e11206274168f5fe0dadb9fe32027c14b2fe5dc52e624a"
+    },
+    {
+      "path": "src/eip712-wallet-signing.test.mjs",
+      "source_repository": "armoreum/armoreum",
+      "source_commit": "86d6af9b9d5ea54f5a6156560246ca0c841561a7",
+      "source_path": "src/lib/eip712-wallet-signing.test.mjs",
+      "sha256": "8ad350835dca2ea52c86b9aae3aaab9a3fec4ce7e1464c86279eb6acc73fc5ff"
+    },
+    {
+      "path": "contracts/ArmoreumPasskeyVerifier.sol",
+      "source_repository": "armoreum/armoreum-contracts",
+      "source_commit": "1672dc2297f19725639bc564e61211c5f07227bc",
+      "source_path": "contracts/ArmoreumPasskeyVerifier.sol",
+      "sha256": "4864cbed4090fcb635e989ee72aae3062e45808ee66a43aa670ba0d14942fe17"
+    },
+    {
+      "path": "contracts/interfaces/IArmoreumPasskeyVerifier.sol",
+      "source_repository": "armoreum/armoreum-contracts",
+      "source_commit": "1672dc2297f19725639bc564e61211c5f07227bc",
+      "source_path": "contracts/interfaces/IArmoreumPasskeyVerifier.sol",
+      "sha256": "e75ecf1e9080fadb56d7e907a12a9b5f6f8c13d9a16abc733573c0d3955b157b"
+    },
+    {
+      "path": "contracts/libraries/AuthorizationHashChain.sol",
+      "source_repository": "armoreum/armoreum-contracts",
+      "source_commit": "1672dc2297f19725639bc564e61211c5f07227bc",
+      "source_path": "contracts/libraries/AuthorizationHashChain.sol",
+      "sha256": "d2da3166c857c53b455a64f6a8f782724c7d0071df918ce69867718d9a738d81"
+    },
+    {
+      "path": "hardhat.config.cjs",
+      "source_repository": "armoreum/armoreum-contracts",
+      "source_commit": "1672dc2297f19725639bc564e61211c5f07227bc",
+      "source_path": "hardhat.config.cjs",
+      "sha256": "5db26bda895f8c71c35cabd7c117190c13cc1fe2be88aaf343bef498de3e880d"
+    }
+  ]
+}

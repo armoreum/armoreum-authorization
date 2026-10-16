@@ -1,0 +1,44 @@
+{
+  "name": "@armoreum/authorization",
+  "version": "0.1.0-source.1",
+  "description": "Hash-chain authorization, password-derived creator material, EIP-712 signing helpers, and verifier source extracted from Armoreum.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/armoreum/armoreum-authorization.git"
+  },
+  "homepage": "https://github.com/armoreum/armoreum-authorization#readme",
+  "bugs": {
+    "url": "https://github.com/armoreum/armoreum-authorization/issues",
+    "email": "support@armoreum.io"
+  },
+  "files": [
+    "src",
+    "contracts",
+    "docs",
+    "README.md",
+    "LICENSE",
+    "NOTICE.md",
+    "SOURCE_MANIFEST.json"
+  ],
+  "scripts": {
+    "test": "node --experimental-strip-types --test src/*.test.mjs",
+    "compile": "HARDHAT_DISABLE_TELEMETRY_PROMPT=true hardhat compile"
+  },
+  "dependencies": {
+    "ethers": "6.17.0",
+    "hash-wasm": "4.12.0",
+    "@openzeppelin/contracts": "5.5.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "3.1.0",
+    "@nomicfoundation/hardhat-verify": "2.1.3",
+    "@openzeppelin/hardhat-upgrades": "3.9.1",
+    "hardhat": "2.26.3"
+  }
+}
